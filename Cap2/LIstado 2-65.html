@@ -1,0 +1,21 @@
+!<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <title>Formularios</title>
+  </head>
+  <body>
+    <section>
+        <form name="formulario" method="get" action="procesar.php">
+            <datalist id="datos">
+                <option value="7411045259" label="Teléfono 1"></option>
+                <option value="7442102929" label="Teléfono 2"></option>
+            </datalist>
+            <p><label>Teléfono: <input type="tel" name="telefono" list="datos"></label></p>
+            <progress value="30" max="100">0%</progress>
+            <meter value="60" min="0" max="100" low="40" high="80" optimum="100">60</meter>
+            <p><input type="submit" value="Enviar"></p>
+        </form>
+    </section>
+  </body>
+</html>
