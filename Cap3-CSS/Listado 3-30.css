@@ -1,0 +1,4 @@
+:not(p) {
+    margin:0px;
+    background-color: blue;
+}
