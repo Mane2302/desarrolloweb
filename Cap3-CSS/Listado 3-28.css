@@ -1,6 +1,6 @@
 p:nth-child(odd) {
-  background-color: #999999;
+  background-color: #0da021;
 }
-p:nth-child(even) {
+p:nth-child() {
   background-color: #cccccc;
 }

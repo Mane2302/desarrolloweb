@@ -1,4 +1,5 @@
 section :not(.mitexto2) {
+    font-size: 40px;
     margin: 5px;
     color: brown;
 }
