@@ -5,5 +5,12 @@ header {
   background-image: url("/imagenes/ladrillosclaros.jpg");
 }
 #titulo {
-  font: bold 26px Verdana, sans-serif;
+  -webkit-text-stroke: 2px black;
+  color: transparent;
+  font:  bold 26px MiNuevaLetra,Verdana, sans-serif;
+
+}
+@font-face {
+  font-family: "MiNuevaLetra";
+  src: url("/documentos/SuperMario256.ttf");
 }
