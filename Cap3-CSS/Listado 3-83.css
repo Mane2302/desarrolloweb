@@ -3,14 +3,14 @@ header {
   padding: 15px;
   text-align: center;
   border: 1px solid;
-  animation: mianimacion 1s ease-in-out 0s infinite normal none;
+  animation: mianimacion 3s ease-in-out 0s infinite normal none;
 }
 @keyframes mianimacion {
   0% {
     background: #ffffff;
   }
   50% {
-    background: #ff0000;
+    background: #00c3ff;
   }
   100% {
     background: #ffffff;

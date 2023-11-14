@@ -19,7 +19,7 @@ header {
     }
     65% {
     transform: scale(0.5);
-    background: #FFFF00;
+    background: #FF0000;
     }
     80% {
     background: #FFFFFF;
