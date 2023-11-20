@@ -1,0 +1,35 @@
+#cajapadre {
+  width: 600px;
+  border: 1px solid;
+}
+#caja-1 {
+  float: left;
+  width: 120px;
+  height: 50px;
+  margin: 5px;
+  background-color: rgb(34, 191, 226);
+}
+#caja-2 {
+  float: left;
+  width: 120px;
+  height: 50px;
+  margin: 5px;
+  background-color: rgb(124, 226, 34);
+}
+#caja-3 {
+  float: right;
+  width: 120px;
+  height: 50px;
+  margin: 5px;
+  background-color: rgb(34, 191, 226);
+}
+#caja-4 {
+  float: right;
+  width: 120px;
+  height: 50px;
+  margin: 5px;
+  background-color: rgb(124, 226, 34);
+}
+.restaurar {
+  clear: both;
+}
