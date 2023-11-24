@@ -1,0 +1,9 @@
+article {
+    font: bold 1.5em Georgia, sans-serif;
+  }
+article img {
+  width: 100%;
+}
+article img {
+  max-width: 100%;
+}
