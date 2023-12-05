@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Menu</title>
+    <style>
+      #Menu {
+        display: none;
+        position: absolute;
+        background-color: blueviolet;
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        padding: 12px;
+      }
+      #menu a{
+        text-decoration: violet;
+        color: blueviolet;
+        padding: 15px;
+        display: block;
+      }
+      #menu a:hover{
+        background-color: aqua;
+      }
+      #toogleButton {
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <head>
+      <h1>Menú con javascript</h1>
+      <div id="toogleButton">Mostrar Menú</div>
+      <div id="Menu"></div>
+      <ul id="menu">
+        <li>
+          <a href="#pagina1.html">Ir a a pagina 1</a></li>
+        <li><a href="#pagina2.html">Ir a a pagina 2</a></li>
+        <li><a href="#pagina3.html">Ir a a pagina 3</a></li>
+        <li><a href="#pagina4.html">Ir a a pagina 4</a></li>
+      </ul>
+    </head>
+
+    <script src="practicajs4.js"></script>
+  </body>
+</html>

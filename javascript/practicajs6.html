@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript</title>
+</head>
+<body>
+    <h2>Cambio de imagen</h2>
+    <h3>Da clic en el boton para cambiar de imagen</h3>
+    <img id="imagen" src="/imagenes/miimagen.jpg" alt="imagen1>
+    <button onclic="cambiarimagen()">Cambiar foto</button>
+    <script>
+        var imagenes=["botonenviar.png"];
+        var indice=0;
+        function cambiarimagen(){
+            indice = (indice + 1) % imagenes.length;
+            document.getElementById("imagen").src=imagenes[indice];
+        }
+    </script>
+</body>
+</html>
