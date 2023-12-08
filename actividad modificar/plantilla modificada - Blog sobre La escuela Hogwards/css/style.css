@@ -10,7 +10,7 @@
   --indigo: #6610f2;
   --purple: #6f42c1;
   --pink: #e83e8c;
-  --red: #dc3545;
+  --red: #36220b;
   --orange: #fd7e14;
   --yellow: #ffc107;
   --green: #28a745;
@@ -49,6 +49,7 @@ html {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
+
 article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
   display: block;
 }
@@ -73,7 +74,9 @@ hr {
   height: 0;
   overflow: visible;
 }
-
+h1{
+  font-family: 'Times New Roman', Times, serif;
+}
 h1, h2, h3, h4, h5, h6 {
   margin-top: 0;
   margin-bottom: 0.5rem;
@@ -6093,8 +6096,9 @@ a.close.disabled {
   vertical-align: text-top !important;
 }
 
+ /* desde aqui se cambian los colores */ 
 .bg-primary {
-  background-color: #ED1C24 !important;
+  background-color: #d6b575 !important;
 }
 
 a.bg-primary:hover, a.bg-primary:focus,
@@ -6144,7 +6148,7 @@ button.bg-warning:focus {
 }
 
 .bg-danger {
-  background-color: #dc3545 !important;
+  background-color: #36220b !important;
 }
 
 a.bg-danger:hover, a.bg-danger:focus,
@@ -6242,7 +6246,7 @@ button.bg-dark:focus {
 }
 
 .border-danger {
-  border-color: #dc3545 !important;
+  border-color: #36220b !important;
 }
 
 .border-light {
@@ -9264,7 +9268,7 @@ button.bg-dark:focus {
 }
 
 .text-primary {
-  color: #ED1C24 !important;
+  color: #36220b !important;
 }
 
 a.text-primary:hover, a.text-primary:focus {
@@ -9272,7 +9276,10 @@ a.text-primary:hover, a.text-primary:focus {
 }
 
 .text-secondary {
-  color: #6c757d !important;
+  color: #b8884e !important;
+}
+.text-barra {
+  color: #36220b !important;
 }
 
 a.text-secondary:hover, a.text-secondary:focus {
@@ -9304,7 +9311,7 @@ a.text-warning:hover, a.text-warning:focus {
 }
 
 .text-danger {
-  color: #dc3545 !important;
+  color: #36220b !important;
 }
 
 a.text-danger:hover, a.text-danger:focus {
