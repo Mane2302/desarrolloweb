@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="utf-8">
+  <title>JavaScript</title>
+  <script>
+    function iniciar() {
+      var lista = document.getElementsByTagName("p");
+      var elemento = lista[1];
+      alert("El id es: " + elemento.id);
+    }
+  </script>
+</head>
+
+<body onload="iniciar()">
+  <section>
+    <h1>Accediendo a elementos por el nombre</h1>
+    <p id="subtitulo">Hola a todooos!!!</p>
+    <p id="subtitulo2">Hola como están</p>
+  </section>
+</body>
+
+</html>

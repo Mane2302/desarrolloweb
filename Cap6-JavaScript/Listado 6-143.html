@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="utf-8">
+  <title>JavaScript</title>
+  <script>
+    function iniciar() {
+      var elemento = document.querySelector("section > p");
+      alert("El id es: " + elemento.id);
+    }
+  </script>
+</head>
+
+<body onload="iniciar()">
+  <section>
+    <h1>Buscando un elemento con el método querySelector()</h1>
+    <p id="subtitulo">Hola a todooos!!!</p>
+    <p id="subtitulo2">Hola como están</p>
+  </section>
+</body>
+
+</html>
