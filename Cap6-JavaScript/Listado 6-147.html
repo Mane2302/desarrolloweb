@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="utf-8">
+  <title>JavaScript</title>
+  <style>
+    .supercolor {
+      background: #0099EE;
+    }
+
+    .colornegro {
+      background: #000000;
+    }
+  </style>
+  <script>
+    function cambiarcolor() {
+      var elemento = document.getElementById("subtitulo");
+      elemento.className = "colornegro";
+    }
+  </script>
+</head>
+
+<body onload="iniciar()">
+  <section id="seccionprincipal">
+    <h1>Reemplazando la clase del elemento</h1>
+    <p id="subtitulo" class="supercolor">Hola a todooos!!!</p>
+    <p id="subtitulo2">Hola como están</p>
+  </section>
+</body>
+
+</html>
