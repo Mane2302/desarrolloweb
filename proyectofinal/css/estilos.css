@@ -1,0 +1,42 @@
+body {
+    
+    font-family: 'Rubik Doodle Shadow' ,Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.banner {
+    background-image: url(/recursos/banner_fondo.jpg);
+    background-size: cover;
+    background-position: center;
+    color: red;
+    text-align: left;
+    padding: 50px 0;
+}
+.banner h1 {
+    font-size: 3cm;
+    margin: 0;
+    font-family: 'Rubik Doodle Shadow' ,sans-serif;
+}
+
+nav {
+    background-color: #333;
+    color: white;
+    text-align: left;
+    padding: 15px;
+}
+
+nav li{
+    display: inline;
+    margin-right: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+
+}
+
+a:hover {
+    color: #007BFF;
+}
