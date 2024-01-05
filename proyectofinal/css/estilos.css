@@ -1,42 +1,61 @@
 body {
-    
-    font-family: 'Rubik Doodle Shadow' ,Arial, Helvetica, sans-serif;
+    font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
+    background-color: #f5f5f5;
 }
 
-.banner {
-    background-image: url(/recursos/banner_fondo.jpg);
-    background-size: cover;
-    background-position: center;
-    color: red;
-    text-align: left;
-    padding: 50px 0;
-}
-.banner h1 {
-    font-size: 3cm;
-    margin: 0;
-    font-family: 'Rubik Doodle Shadow' ,sans-serif;
-}
-
-nav {
+header {
     background-color: #333;
-    color: white;
-    text-align: left;
-    padding: 15px;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
 }
 
-nav li{
-    display: inline;
-    margin-right: 20px;
+section {
+    margin: 20px;
 }
 
-a {
-    text-decoration: none;
-    color: white;
-
+h2 {
+    color: #333;
 }
 
-a:hover {
-    color: #007BFF;
+#places-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
+
+footer {
+    text-align: center;
+    padding: 1em 0;
+    background-color: #333;
+    color: #fff;
+}
+
+
+/* ... (otros estilos) */
+
+.place-card {
+  display: none;  /* Ocultar todas las imágenes inicialmente */
+  text-align: center;
+  margin: 20px;
+}
+
+.place-card img {
+  max-width: 100%;  /* La imagen no será más ancha que el contenedor */
+  height: auto;     /* Mantener la proporción de aspecto */
+}
+
+.hidden {
+  display: none;  /* Clase para ocultar elementos */
+}
+
+button {
+  margin: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* ... (otros estilos) */

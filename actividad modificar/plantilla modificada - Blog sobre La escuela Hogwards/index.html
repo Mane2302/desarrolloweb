@@ -42,8 +42,8 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-4 text-right d-none d-md-block">
-                Jueves - 07 - Diciembre - 2023
+            <div class="col-md-4 text-right d-none d-md-block" id="fechaActual">
+                <!--Fecha automática-->
             </div>
         </div>
         <div class="row align-items-center py-2 px-lg-5">
@@ -82,7 +82,7 @@
                     <a href="contact.html" class="nav-item nav-link">Contacto</a>
                 </div>
                 <div class="input-group ml-auto" style="width: 100%; max-width: 300px;">
-                    <input type="text" class="form-control" placeholder="Keyword">
+                    <input type="text" class="form-control" placeholder="Buscar">
                     <div class="input-group-append">
                         <button class="input-group-text text-secondary"><i
                                 class="fa fa-search"></i></button>
@@ -124,7 +124,7 @@
                 </div>
                 <div class="d-flex">
                     <img src="img/news-profesor-5.jpg" style="width: 80px; height: 80px; object-fit: cover;">
-                    <div class="d-flex align-items-center bg-light px-3" style="height: 80px;">
+                    <div class="d-flex align-items-center bg-maestros px-3" style="height: 80px;">
                         <a class="text-barra font-weight-semi-bold" href="">Remus Lupin <br>-Defensa contra las Artes Oscuras</a>
                     </div>
                 </div>
@@ -144,11 +144,11 @@
                             <img class="img-fluid h-100" src="img/img-principal-1.webp" style="object-fit: cover;">
                             <div class="overlay">
                                 <div class="mb-1">
-                                    <a class="text-white" href="">Educación</a>
+                                    <a class="text-white" href="category-aducacion.html">Educación</a>
                                     <span class="px-2 text-white">/</span>
                                     <a class="text-white" href="">01 de Diciembre de 2023</a>
                                 </div>
-                                <a class="h2 m-0 text-white font-weight-bold" href="">Hogwarts Revoluciona la Educación Mágica: Introduce Nuevas Materias y Desafíos Interdimensionales</a>
+                                <a class="h2 m-0 text-white font-weight-bold" href="/noticias/noticia1-edu.html">Hogwarts Revoluciona la Educación Mágica: Introduce Nuevas Materias y Desafíos Interdimensionales</a>
                             </div>
                         </div>
                         <div class="position-relative overflow-hidden" style="height: 435px;">
@@ -177,30 +177,30 @@
                 </div>
                 <div class="col-lg-4">
                     <div class="d-flex align-items-center justify-content-between bg-light py-2 px-4 mb-3">
-                        <h3 class="m-0">Categorias</h3>
+                        <h3 class="m-0">Categorías</h3>
                         <a class="text-secondary font-weight-medium text-decoration-none" href="">Ver todo</a>
                     </div>
                     <div class="position-relative overflow-hidden mb-3" style="height: 80px;">
                         <img class="img-fluid w-100 h-100" src="img/img-categoria-1.webp" style="object-fit: cover;">
-                        <a href="" class="overlay align-items-center justify-content-center h4 m-0 text-white text-decoration-none">
+                        <a href="/category-aducacion.html" class="overlay align-items-center justify-content-center h4 m-0 text-white text-decoration-none">
                             Educación
                         </a>
                     </div>
                     <div class="position-relative overflow-hidden mb-3" style="height: 80px;">
                         <img class="img-fluid w-100 h-100" src="img/img-categoria-2.webp" style="object-fit: cover;">
-                        <a href="" class="overlay align-items-center justify-content-center h4 m-0 text-white text-decoration-none">
+                        <a href="/category-deportes.html" class="overlay align-items-center justify-content-center h4 m-0 text-white text-decoration-none">
                             Deportes
                         </a>
                     </div>
                     <div class="position-relative overflow-hidden mb-3" style="height: 80px;">
                         <img class="img-fluid w-100 h-100" src="img/img-categoria-3.webp" style="object-fit: cover; object-position: top;"> //agregue top
-                        <a href="" class="overlay align-items-center justify-content-center h4 m-0 text-white text-decoration-none">
+                        <a href="/category-materias.html" class="overlay align-items-center justify-content-center h4 m-0 text-white text-decoration-none">
                             Materias
                         </a>
                     </div>
                     <div class="position-relative overflow-hidden" style="height: 80px;">
                         <img class="img-fluid w-100 h-100" src="img/img-categoria-4.webp" style="object-fit: cover;">
-                        <a href="" class="overlay align-items-center justify-content-center h4 m-0 text-white text-decoration-none">
+                        <a href="/category-curiosidades.html" class="overlay align-items-center justify-content-center h4 m-0 text-white text-decoration-none">
                             Curiosidades
                         </a>
                     </div>
@@ -215,8 +215,7 @@
     <div class="container-fluid py-3">
         <div class="container">
             <div class="d-flex align-items-center justify-content-between bg-light py-2 px-4 mb-3">
-                <h3 class="m-0">Featured</h3>
-                <a class="text-secondary font-weight-medium text-decoration-none" href="">View All</a>
+                <h3 class="m-0">Destacado</h3>
             </div>
             <div class="owl-carousel owl-carousel-2 carousel-item-4 position-relative">
                 <div class="position-relative overflow-hidden" style="height: 300px;">
@@ -372,96 +371,7 @@
     <!-- Category News Slider End -->
 
 
-    <!-- Category News Slider Start -->
-    <div class="container-fluid">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6 py-3">
-                    <div class="bg-light py-2 px-4 mb-3">
-                        <h3 class="m-0">Entertainment</h3>
-                    </div>
-                    <div class="owl-carousel owl-carousel-3 carousel-item-2 position-relative">
-                        <div class="position-relative">
-                            <img class="img-fluid w-100" src="img/news-500x280-6.jpg" style="object-fit: cover;">
-                            <div class="overlay position-relative bg-light">
-                                <div class="mb-2" style="font-size: 13px;">
-                                    <a href="">Technology</a>
-                                    <span class="px-1">/</span>
-                                    <span>January 01, 2045</span>
-                                </div>
-                                <a class="h4 m-0" href="">Sanctus amet sed ipsum lorem</a>
-                            </div>
-                        </div>
-                        <div class="position-relative">
-                            <img class="img-fluid w-100" src="img/news-500x280-5.jpg" style="object-fit: cover;">
-                            <div class="overlay position-relative bg-light">
-                                <div class="mb-2" style="font-size: 13px;">
-                                    <a href="">Technology</a>
-                                    <span class="px-1">/</span>
-                                    <span>January 01, 2045</span>
-                                </div>
-                                <a class="h4 m-0" href="">Sanctus amet sed ipsum lorem</a>
-                            </div>
-                        </div>
-                        <div class="position-relative">
-                            <img class="img-fluid w-100" src="img/news-500x280-4.jpg" style="object-fit: cover;">
-                            <div class="overlay position-relative bg-light">
-                                <div class="mb-2" style="font-size: 13px;">
-                                    <a href="">Technology</a>
-                                    <span class="px-1">/</span>
-                                    <span>January 01, 2045</span>
-                                </div>
-                                <a class="h4 m-0" href="">Sanctus amet sed ipsum lorem</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6 py-3">
-                    <div class="bg-light py-2 px-4 mb-3">
-                        <h3 class="m-0">Sports</h3>
-                    </div>
-                    <div class="owl-carousel owl-carousel-3 carousel-item-2 position-relative">
-                        <div class="position-relative">
-                            <img class="img-fluid w-100" src="img/news-500x280-3.jpg" style="object-fit: cover;">
-                            <div class="overlay position-relative bg-light">
-                                <div class="mb-2" style="font-size: 13px;">
-                                    <a href="">Technology</a>
-                                    <span class="px-1">/</span>
-                                    <span>January 01, 2045</span>
-                                </div>
-                                <a class="h4 m-0" href="">Sanctus amet sed ipsum lorem</a>
-                            </div>
-                        </div>
-                        <div class="position-relative">
-                            <img class="img-fluid w-100" src="img/news-500x280-2.jpg" style="object-fit: cover;">
-                            <div class="overlay position-relative bg-light">
-                                <div class="mb-2" style="font-size: 13px;">
-                                    <a href="">Technology</a>
-                                    <span class="px-1">/</span>
-                                    <span>January 01, 2045</span>
-                                </div>
-                                <a class="h4 m-0" href="">Sanctus amet sed ipsum lorem</a>
-                            </div>
-                        </div>
-                        <div class="position-relative">
-                            <img class="img-fluid w-100" src="img/news-500x280-1.jpg" style="object-fit: cover;">
-                            <div class="overlay position-relative bg-light">
-                                <div class="mb-2" style="font-size: 13px;">
-                                    <a href="">Technology</a>
-                                    <span class="px-1">/</span>
-                                    <span>January 01, 2045</span>
-                                </div>
-                                <a class="h4 m-0" href="">Sanctus amet sed ipsum lorem</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    </div>
-    <!-- Category News Slider End -->
-
+    
 
     <!-- News With Sidebar Start -->
     <div class="container-fluid py-3">
@@ -573,28 +483,7 @@
                                     <p class="m-0">Rebum dolore duo et vero ipsum clita, est ea sed duo diam ipsum, clita at justo, lorem amet vero eos sed sit...</p>
                                 </div>
                             </div>
-                            <div class="d-flex mb-3">
-                                <img src="img/news-100x100-5.jpg" style="width: 100px; height: 100px; object-fit: cover;">
-                                <div class="w-100 d-flex flex-column justify-content-center bg-light px-3" style="height: 100px;">
-                                    <div class="mb-1" style="font-size: 13px;">
-                                        <a href="">Technology</a>
-                                        <span class="px-1">/</span>
-                                        <span>January 01, 2045</span>
-                                    </div>
-                                    <a class="h6 m-0" href="">Lorem ipsum dolor sit amet consec adipis elit</a>
-                                </div>
-                            </div>
-                            <div class="d-flex mb-3">
-                                <img src="img/news-100x100-1.jpg" style="width: 100px; height: 100px; object-fit: cover;">
-                                <div class="w-100 d-flex flex-column justify-content-center bg-light px-3" style="height: 100px;">
-                                    <div class="mb-1" style="font-size: 13px;">
-                                        <a href="">Technology</a>
-                                        <span class="px-1">/</span>
-                                        <span>January 01, 2045</span>
-                                    </div>
-                                    <a class="h6 m-0" href="">Lorem ipsum dolor sit amet consec adipis elit</a>
-                                </div>
-                            </div>
+                            
                         </div>
                         <div class="col-lg-6">
                             <div class="position-relative mb-3">
@@ -609,28 +498,8 @@
                                     <p class="m-0">Rebum dolore duo et vero ipsum clita, est ea sed duo diam ipsum, clita at justo, lorem amet vero eos sed sit...</p>
                                 </div>
                             </div>
-                            <div class="d-flex mb-3">
-                                <img src="img/news-100x100-2.jpg" style="width: 100px; height: 100px; object-fit: cover;">
-                                <div class="w-100 d-flex flex-column justify-content-center bg-light px-3" style="height: 100px;">
-                                    <div class="mb-1" style="font-size: 13px;">
-                                        <a href="">Technology</a>
-                                        <span class="px-1">/</span>
-                                        <span>January 01, 2045</span>
-                                    </div>
-                                    <a class="h6 m-0" href="">Lorem ipsum dolor sit amet consec adipis elit</a>
-                                </div>
-                            </div>
-                            <div class="d-flex mb-3">
-                                <img src="img/news-100x100-3.jpg" style="width: 100px; height: 100px; object-fit: cover;">
-                                <div class="w-100 d-flex flex-column justify-content-center bg-light px-3" style="height: 100px;">
-                                    <div class="mb-1" style="font-size: 13px;">
-                                        <a href="">Technology</a>
-                                        <span class="px-1">/</span>
-                                        <span>January 01, 2045</span>
-                                    </div>
-                                    <a class="h6 m-0" href="">Lorem ipsum dolor sit amet consec adipis elit</a>
-                                </div>
-                            </div>
+                            
+                            
                         </div>
                     </div>
                 </div>
@@ -692,69 +561,7 @@
                     </div>
                     <!-- Ads End -->
 
-                    <!-- Popular News Start -->
-                    <div class="pb-3">
-                        <div class="bg-light py-2 px-4 mb-3">
-                            <h3 class="m-0">Tranding</h3>
-                        </div>
-                        <div class="d-flex mb-3">
-                            <img src="img/news-100x100-1.jpg" style="width: 100px; height: 100px; object-fit: cover;">
-                            <div class="w-100 d-flex flex-column justify-content-center bg-light px-3" style="height: 100px;">
-                                <div class="mb-1" style="font-size: 13px;">
-                                    <a href="">Technology</a>
-                                    <span class="px-1">/</span>
-                                    <span>January 01, 2045</span>
-                                </div>
-                                <a class="h6 m-0" href="">Lorem ipsum dolor sit amet consec adipis elit</a>
-                            </div>
-                        </div>
-                        <div class="d-flex mb-3">
-                            <img src="img/news-100x100-2.jpg" style="width: 100px; height: 100px; object-fit: cover;">
-                            <div class="w-100 d-flex flex-column justify-content-center bg-light px-3" style="height: 100px;">
-                                <div class="mb-1" style="font-size: 13px;">
-                                    <a href="">Technology</a>
-                                    <span class="px-1">/</span>
-                                    <span>January 01, 2045</span>
-                                </div>
-                                <a class="h6 m-0" href="">Lorem ipsum dolor sit amet consec adipis elit</a>
-                            </div>
-                        </div>
-                        <div class="d-flex mb-3">
-                            <img src="img/news-100x100-3.jpg" style="width: 100px; height: 100px; object-fit: cover;">
-                            <div class="w-100 d-flex flex-column justify-content-center bg-light px-3" style="height: 100px;">
-                                <div class="mb-1" style="font-size: 13px;">
-                                    <a href="">Technology</a>
-                                    <span class="px-1">/</span>
-                                    <span>January 01, 2045</span>
-                                </div>
-                                <a class="h6 m-0" href="">Lorem ipsum dolor sit amet consec adipis elit</a>
-                            </div>
-                        </div>
-                        <div class="d-flex mb-3">
-                            <img src="img/news-100x100-4.jpg" style="width: 100px; height: 100px; object-fit: cover;">
-                            <div class="w-100 d-flex flex-column justify-content-center bg-light px-3" style="height: 100px;">
-                                <div class="mb-1" style="font-size: 13px;">
-                                    <a href="">Technology</a>
-                                    <span class="px-1">/</span>
-                                    <span>January 01, 2045</span>
-                                </div>
-                                <a class="h6 m-0" href="">Lorem ipsum dolor sit amet consec adipis elit</a>
-                            </div>
-                        </div>
-                        <div class="d-flex mb-3">
-                            <img src="img/news-100x100-5.jpg" style="width: 100px; height: 100px; object-fit: cover;">
-                            <div class="w-100 d-flex flex-column justify-content-center bg-light px-3" style="height: 100px;">
-                                <div class="mb-1" style="font-size: 13px;">
-                                    <a href="">Technology</a>
-                                    <span class="px-1">/</span>
-                                    <span>January 01, 2045</span>
-                                </div>
-                                <a class="h6 m-0" href="">Lorem ipsum dolor sit amet consec adipis elit</a>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Popular News End -->
-
+                   
                     <!-- Tags Start -->
                     <div class="pb-3">
                         <div class="bg-light py-2 px-4 mb-3">
@@ -788,70 +595,67 @@
     <div class="container-fluid bg-light pt-5 px-sm-3 px-md-5">
         <div class="row">
             <div class="col-lg-3 col-md-6 mb-5">
-                <a href="index.html" class="navbar-brand">
-                    <h1 class="mb-2 mt-n2 display-5 text-uppercase"><span class="text-primary">Hola</span><span class="text-secondary">Mago</span></h1>
+                <a href="/index.html" class="navbar-brand">
+                    <h1 class="mb-2 mt-n2 display-5 text-uppercase"><span class="text-primary">Hola</span><span
+                            class="text-secondary">Mago</span></h1>
                 </a>
                 <p>Apoyanos y sigue nuestras redes sociales para llegar a mas, incluso muggles</p>
+                </a>
                 <div class="d-flex justify-content-start mt-4">
-                    <a class="btn btn-outline-secondary text-center mr-2 px-0" style="width: 38px; height: 38px;" href="#"><i class="fab fa-twitter"></i></a>
-                    <a class="btn btn-outline-secondary text-center mr-2 px-0" style="width: 38px; height: 38px;" href="#"><i class="fab fa-facebook-f"></i></a>
-                    <a class="btn btn-outline-secondary text-center mr-2 px-0" style="width: 38px; height: 38px;" href="#"><i class="fab fa-linkedin-in"></i></a>
-                    <a class="btn btn-outline-secondary text-center mr-2 px-0" style="width: 38px; height: 38px;" href="#"><i class="fab fa-instagram"></i></a>
-                    <a class="btn btn-outline-secondary text-center mr-2 px-0" style="width: 38px; height: 38px;" href="#"><i class="fab fa-youtube"></i></a>
+                    <a class="btn btn-outline-secondary text-center mr-2 px-0" style="width: 38px; height: 38px"
+                        href="#"><i class="fab fa-twitter"></i></a>
+                    <a class="btn btn-outline-secondary text-center mr-2 px-0" style="width: 38px; height: 38px"
+                        href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a class="btn btn-outline-secondary text-center mr-2 px-0" style="width: 38px; height: 38px"
+                        href="#"><i class="fab fa-linkedin-in"></i></a>
+                    <a class="btn btn-outline-secondary text-center mr-2 px-0" style="width: 38px; height: 38px"
+                        href="#"><i class="fab fa-instagram"></i></a>
+                    <a class="btn btn-outline-secondary text-center mr-2 px-0" style="width: 38px; height: 38px"
+                        href="#"><i class="fab fa-youtube"></i></a>
                 </div>
             </div>
             <div class="col-lg-3 col-md-6 mb-5">
                 <h4 class="font-weight-bold mb-4">Categories</h4>
                 <div class="d-flex flex-wrap m-n1">
-                    <a href="" class="btn btn-sm btn-outline-secondary m-1">Politics</a>
-                    <a href="" class="btn btn-sm btn-outline-secondary m-1">Business</a>
-                    <a href="" class="btn btn-sm btn-outline-secondary m-1">Corporate</a>
-                    <a href="" class="btn btn-sm btn-outline-secondary m-1">Sports</a>
-                    <a href="" class="btn btn-sm btn-outline-secondary m-1">Health</a>
-                    <a href="" class="btn btn-sm btn-outline-secondary m-1">Education</a>
-                    <a href="" class="btn btn-sm btn-outline-secondary m-1">Science</a>
-                    <a href="" class="btn btn-sm btn-outline-secondary m-1">Technology</a>
-                    <a href="" class="btn btn-sm btn-outline-secondary m-1">Foods</a>
-                    <a href="" class="btn btn-sm btn-outline-secondary m-1">Entertainment</a>
-                    <a href="" class="btn btn-sm btn-outline-secondary m-1">Travel</a>
-                    <a href="" class="btn btn-sm btn-outline-secondary m-1">Lifestyle</a>
+                    <a href="/category-aducacion.html" class="btn btn-sm btn-outline-secondary m-1">Educación</a>
+                    <a href="/category-deportes.html" class="btn btn-sm btn-outline-secondary m-1">Deportes</a>
+                    <a href="/category-materias.html" class="btn btn-sm btn-outline-secondary m-1">Materias</a>
+                    <a href="/category-curiosidades.html" class="btn btn-sm btn-outline-secondary m-1">Curiosidades</a>
                 </div>
             </div>
             <div class="col-lg-3 col-md-6 mb-5">
                 <h4 class="font-weight-bold mb-4">Tags</h4>
                 <div class="d-flex flex-wrap m-n1">
-                    <a href="" class="btn btn-sm btn-outline-secondary m-1">Politics</a>
-                    <a href="" class="btn btn-sm btn-outline-secondary m-1">Business</a>
-                    <a href="" class="btn btn-sm btn-outline-secondary m-1">Corporate</a>
-                    <a href="" class="btn btn-sm btn-outline-secondary m-1">Sports</a>
-                    <a href="" class="btn btn-sm btn-outline-secondary m-1">Health</a>
-                    <a href="" class="btn btn-sm btn-outline-secondary m-1">Education</a>
-                    <a href="" class="btn btn-sm btn-outline-secondary m-1">Science</a>
-                    <a href="" class="btn btn-sm btn-outline-secondary m-1">Technology</a>
-                    <a href="" class="btn btn-sm btn-outline-secondary m-1">Foods</a>
-                    <a href="" class="btn btn-sm btn-outline-secondary m-1">Entertainment</a>
-                    <a href="" class="btn btn-sm btn-outline-secondary m-1">Travel</a>
-                    <a href="" class="btn btn-sm btn-outline-secondary m-1">Lifestyle</a>
+                    <a href="/category-aducacion.html" class="btn btn-sm btn-outline-secondary m-1">Educación</a>
+                    <a href="/category-deportes.html" class="btn btn-sm btn-outline-secondary m-1">Deportes</a>
+                    <a href="/category-materias.html" class="btn btn-sm btn-outline-secondary m-1">Materias</a>
+                    <a href="/category-curiosidades.html" class="btn btn-sm btn-outline-secondary m-1">Curiosidades</a>
                 </div>
             </div>
             <div class="col-lg-3 col-md-6 mb-5">
-                <h4 class="font-weight-bold mb-4">Quick Links</h4>
+                <h4 class="font-weight-bold mb-4">Links rápidos</h4>
                 <div class="d-flex flex-column justify-content-start">
-                    <a class="text-secondary mb-2" href="#"><i class="fa fa-angle-right text-dark mr-2"></i>About</a>
-                    <a class="text-secondary mb-2" href="#"><i class="fa fa-angle-right text-dark mr-2"></i>Advertise</a>
-                    <a class="text-secondary mb-2" href="#"><i class="fa fa-angle-right text-dark mr-2"></i>Privacy & policy</a>
-                    <a class="text-secondary mb-2" href="#"><i class="fa fa-angle-right text-dark mr-2"></i>Terms & conditions</a>
-                    <a class="text-secondary" href="#"><i class="fa fa-angle-right text-dark mr-2"></i>Contact</a>
+                    <a class="text-secondary mb-2" href="/index.html"><i
+                            class="fa fa-angle-right text-dark mr-2"></i>Inicio</a>
+                    <a class="text-secondary mb-2" href="/category-aducacion.html"><i
+                            class="fa fa-angle-right text-dark mr-2"></i>Educación</a>
+                    <a class="text-secondary mb-2" href="/category-deportes.html"><i
+                            class="fa fa-angle-right text-dark mr-2"></i>Deportes</a>
+                    <a class="text-secondary mb-2" href="/category-curiosidades.html"><i
+                            class="fa fa-angle-right text-dark mr-2"></i>Curiosidades</a>
+                    <a class="text-secondary" href="/contact.html"><i
+                            class="fa fa-angle-right text-dark mr-2"></i>Contacto</a>
                 </div>
             </div>
         </div>
     </div>
     <div class="container-fluid py-4 px-sm-3 px-md-5">
         <p class="m-0 text-center">
-            &copy; <a class="font-weight-bold">Colegio Hogwarts</a>. All Rights Reserved. 
-			
-			<!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
-			Designed by <a class="font-weight-bold" href="https://htmlcodex.com">HTML Codex</a>
+            &copy; <a class="font-weight-bold" href="#">Hogwarts</a>. Todos los derechos reservados.
+
+            <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
+            Designed by
+            <a class="font-weight-bold" href="https://htmlcodex.com">HTML Codex</a>
         </p>
     </div>
     <!-- Footer End -->
