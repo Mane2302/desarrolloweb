@@ -1914,9 +1914,9 @@ pre code {
 .form-control:focus {
   color: #495057;
   background-color: #fff;
-  border-color: #f69296;
+  border-color: #d4a660;
   outline: 0;
-  box-shadow: 0 0 0 0.2rem rgba(237, 28, 36, 0.25);
+  box-shadow: 0 0 0 0.2rem rgba(237, 171, 28, 0.25);
 }
 
 .form-control::placeholder {
@@ -2197,7 +2197,7 @@ textarea.form-control {
 }
 
 .was-validated .form-control:invalid, .form-control.is-invalid {
-  border-color: #dc3545;
+  border-color: #dfaf49;
   padding-right: calc(1.5em + 0.75rem);
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' fill='none' stroke='%23dc3545' viewBox='0 0 12 12'%3e%3ccircle cx='6' cy='6' r='4.5'/%3e%3cpath stroke-linejoin='round' d='M5.8 3.6h.4L6 6.5z'/%3e%3ccircle cx='6' cy='8.2' r='.6' fill='%23dc3545' stroke='none'/%3e%3c/svg%3e");
   background-repeat: no-repeat;
@@ -2206,8 +2206,8 @@ textarea.form-control {
 }
 
 .was-validated .form-control:invalid:focus, .form-control.is-invalid:focus {
-  border-color: #dc3545;
-  box-shadow: 0 0 0 0.2rem rgba(220, 53, 69, 0.25);
+  border-color: #dfaf49;
+  box-shadow: 0 0 0 0.2rem rgba(253, 144, 18, 0.25);
 }
 
 .was-validated textarea.form-control:invalid, textarea.form-control.is-invalid {
@@ -2216,18 +2216,18 @@ textarea.form-control {
 }
 
 .was-validated .custom-select:invalid, .custom-select.is-invalid {
-  border-color: #dc3545;
+  border-color: #dfaf49;
   padding-right: calc(0.75em + 2.3125rem);
   background: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='4' height='5' viewBox='0 0 4 5'%3e%3cpath fill='%23343a40' d='M2 0L0 2h4zm0 5L0 3h4z'/%3e%3c/svg%3e") no-repeat right 0.75rem center/8px 10px, url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' fill='none' stroke='%23dc3545' viewBox='0 0 12 12'%3e%3ccircle cx='6' cy='6' r='4.5'/%3e%3cpath stroke-linejoin='round' d='M5.8 3.6h.4L6 6.5z'/%3e%3ccircle cx='6' cy='8.2' r='.6' fill='%23dc3545' stroke='none'/%3e%3c/svg%3e") #fff no-repeat center right 1.75rem/calc(0.75em + 0.375rem) calc(0.75em + 0.375rem);
 }
 
 .was-validated .custom-select:invalid:focus, .custom-select.is-invalid:focus {
-  border-color: #dc3545;
-  box-shadow: 0 0 0 0.2rem rgba(220, 53, 69, 0.25);
+  border-color: #dfaf49;
+  box-shadow: 0 0 0 0.2rem rgba(253, 144, 18, 0.25);
 }
 
 .was-validated .form-check-input:invalid ~ .form-check-label, .form-check-input.is-invalid ~ .form-check-label {
-  color: #dc3545;
+  color: #dfaf49;
 }
 
 .was-validated .form-check-input:invalid ~ .invalid-feedback,
@@ -2237,33 +2237,33 @@ textarea.form-control {
 }
 
 .was-validated .custom-control-input:invalid ~ .custom-control-label, .custom-control-input.is-invalid ~ .custom-control-label {
-  color: #dc3545;
+  color: #dfaf49;
 }
 
 .was-validated .custom-control-input:invalid ~ .custom-control-label::before, .custom-control-input.is-invalid ~ .custom-control-label::before {
-  border-color: #dc3545;
+  border-color: #dfaf49;
 }
 
 .was-validated .custom-control-input:invalid:checked ~ .custom-control-label::before, .custom-control-input.is-invalid:checked ~ .custom-control-label::before {
-  border-color: #e4606d;
-  background-color: #e4606d;
+  border-color: #dfaf49;
+  background-color: #dfaf49;
 }
 
 .was-validated .custom-control-input:invalid:focus ~ .custom-control-label::before, .custom-control-input.is-invalid:focus ~ .custom-control-label::before {
-  box-shadow: 0 0 0 0.2rem rgba(220, 53, 69, 0.25);
+  box-shadow: 0 0 0 0.2rem rgba(253, 144, 18, 0.25);
 }
 
 .was-validated .custom-control-input:invalid:focus:not(:checked) ~ .custom-control-label::before, .custom-control-input.is-invalid:focus:not(:checked) ~ .custom-control-label::before {
-  border-color: #dc3545;
+  border-color: #dfaf49;
 }
 
 .was-validated .custom-file-input:invalid ~ .custom-file-label, .custom-file-input.is-invalid ~ .custom-file-label {
-  border-color: #dc3545;
+  border-color: #dfaf49;
 }
 
 .was-validated .custom-file-input:invalid:focus ~ .custom-file-label, .custom-file-input.is-invalid:focus ~ .custom-file-label {
-  border-color: #dc3545;
-  box-shadow: 0 0 0 0.2rem rgba(220, 53, 69, 0.25);
+  border-color: #dfaf49;
+  box-shadow: 0 0 0 0.2rem rgba(253, 144, 18, 0.25);
 }
 
 .form-inline {
@@ -2386,7 +2386,7 @@ fieldset:disabled a.btn {
   color: #fff;
   background-color: #b8884e;
   border-color: #b8884e;
-  box-shadow: 0 0 0 0.2rem rgba(240, 62, 69, 0.5);
+  box-shadow: 0 0 0 0.2rem rgba(253, 144, 18, 0.25);
 }
 
 .btn-primary.disabled, .btn-primary:disabled {
@@ -2571,7 +2571,7 @@ fieldset:disabled a.btn {
   color: #fff;
   background-color: #b8884e;
   border-color: #b8884e;
-  box-shadow: 0 0 0 0.2rem rgba(225, 83, 97, 0.5);
+  box-shadow: 0 0 0 0.2rem rgba(253, 144, 18, 0.25);
 }
 
 .btn-danger.disabled, .btn-danger:disabled {
@@ -2838,7 +2838,7 @@ fieldset:disabled a.btn {
 }
 
 .btn-outline-danger:focus, .btn-outline-danger.focus {
-  box-shadow: 0 0 0 0.2rem rgba(220, 53, 69, 0.5);
+  box-shadow: 0 0 0 0.2rem rgba(253, 144, 18, 0.25);
 }
 
 .btn-outline-danger.disabled, .btn-outline-danger:disabled {
@@ -2855,7 +2855,7 @@ fieldset:disabled a.btn {
 
 .btn-outline-danger:not(:disabled):not(.disabled):active:focus, .btn-outline-danger:not(:disabled):not(.disabled).active:focus,
 .show > .btn-outline-danger.dropdown-toggle:focus {
-  box-shadow: 0 0 0 0.2rem rgba(220, 53, 69, 0.5);
+  box-shadow: 0 0 0 0.2rem rgba(253, 144, 18, 0.25);
 }
 
 .btn-outline-light {
@@ -2924,12 +2924,12 @@ fieldset:disabled a.btn {
 
 .btn-link {
   font-weight: 400;
-  color: #ED1C24;
+  color: burlywood;
   text-decoration: none;
 }
 
 .btn-link:hover {
-  color: #af0e14;
+  color: burlywood;
   text-decoration: underline;
 }
 
@@ -3515,7 +3515,7 @@ input[type="button"].btn-block {
 }
 
 .custom-control-input:focus ~ .custom-control-label::before {
-  box-shadow: 0 0 0 0.2rem rgba(237, 28, 36, 0.25);
+  box-shadow: 0 0 0 0.2rem rgba(253, 144, 18, 0.25);
 }
 
 .custom-control-input:focus:not(:checked) ~ .custom-control-label::before {
@@ -3571,8 +3571,8 @@ input[type="button"].btn-block {
 }
 
 .custom-checkbox .custom-control-input:indeterminate ~ .custom-control-label::before {
-  border-color: #ED1C24;
-  background-color: #ED1C24;
+  border-color: rgba(253, 144, 18, 0.25);
+  background-color: rgba(253, 144, 18, 0.25);
 }
 
 .custom-checkbox .custom-control-input:indeterminate ~ .custom-control-label::after {
@@ -3580,11 +3580,11 @@ input[type="button"].btn-block {
 }
 
 .custom-checkbox .custom-control-input:disabled:checked ~ .custom-control-label::before {
-  background-color: rgba(237, 28, 36, 0.5);
+  background-color: rgba(253, 144, 18, 0.25);
 }
 
 .custom-checkbox .custom-control-input:disabled:indeterminate ~ .custom-control-label::before {
-  background-color: rgba(237, 28, 36, 0.5);
+  background-color: rgba(253, 144, 18, 0.25);
 }
 
 .custom-radio .custom-control-label::before {
@@ -3596,7 +3596,7 @@ input[type="button"].btn-block {
 }
 
 .custom-radio .custom-control-input:disabled:checked ~ .custom-control-label::before {
-  background-color: rgba(237, 28, 36, 0.5);
+  background-color: rgba(253, 144, 18, 0.25);
 }
 
 .custom-switch {
@@ -3632,7 +3632,7 @@ input[type="button"].btn-block {
 }
 
 .custom-switch .custom-control-input:disabled:checked ~ .custom-control-label::before {
-  background-color: rgba(237, 28, 36, 0.5);
+  background-color: rgba(253, 144, 18, 0.25);
 }
 
 .custom-select {
@@ -6168,7 +6168,7 @@ button.bg-danger:focus {
 a.bg-light:hover, a.bg-light:focus,
 button.bg-light:hover,
 button.bg-light:focus {
-  background-color: #e6e6e6 !important;
+  background-color: burlywood !important;
 }
 
 .bg-dark {
@@ -9651,7 +9651,7 @@ h6,
   bottom: 0;
   left: 0;
   opacity: 0;
-  background: rgba(253, 172, 83, 0.7);
+  background: rgba(253, 144, 18, 0.25);
   border: 15px solid #ffffff;
   transition: .5s;
 }
