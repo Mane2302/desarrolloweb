@@ -191,3 +191,18 @@ var fechaFormateada =
 
 // Actualizamos el contenido del elemento con la fecha formateada
 fechaElemento.textContent = fechaFormateada;
+
+
+document.addEventListener("DOMContentLoaded", function () {
+  // Verificar si ya hay un contador en localStorage
+  if (localStorage.getItem("visitas")) {
+    // Si existe, obtener el valor actual y aumentarlo en 1
+    let visitas = parseInt(localStorage.getItem("visitas")) + 1;
+    localStorage.setItem("visitas", visitas);
+    document.getElementById("cuentavisitas").innerText = visitas;
+  } else {
+    // Si no existe, inicializar el contador en 1 y almacenarlo en localStorage
+    localStorage.setItem("visitas", 1);
+    document.getElementById("contador").innerText = 1;
+  }
+});
